@@ -60,7 +60,7 @@ each LED and enclose the majority of its light in that space. These tubes were
 glued to a front piece of paper which acts as the front of the display. The design
 of the display is shown below.
 
-![Diagram showing use of tube to direct LED light to display front](light_tube.png)
+![Diagram showing use of tube to direct LED light to display front](light_tube.PNG)
 
 ### Connections
 
@@ -199,7 +199,7 @@ I decided to use a finite state machine (FSM) to control the operation of the cl
 as it simplifies the process of considering unlikely cases. The FSM diagram is shown
 below.
 
-![FSM diagram of the behaviour of the clock](../Button%20FSM.PNG)
+![FSM diagram of the behaviour of the clock](Button%20FSM.PNG)
 
 I made the choice to remove the last requirement from the list. This meant that
 the configuration of the clock would now be set using a `config` file but this
